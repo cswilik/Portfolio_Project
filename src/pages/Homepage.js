@@ -8,7 +8,7 @@ function Homepage() {
             <div className='header'>
                 <Header/>
             </div>
-            <h1>Hello this is homepage</h1>
+            <h1>Helloooooo this is homepage</h1>
         </div>
     )
 }
