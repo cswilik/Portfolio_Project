@@ -21,3 +21,5 @@ const projectList = [
         walkthrough: 'youtube link'
     }
 ]
+
+export default projectList;

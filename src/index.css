@@ -10,7 +10,7 @@
   background-image: url('https://images.squarespace-cdn.com/content/v1/54eec73ee4b0ae0904da0e94/1448810901819-9PLJNAVIC6XQ7AXHDBB0/ke17ZwdGBToddI8pDm48kIZvwhI-8nL3dm4Y-FdCqJh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USGjq6LBx7SyvhsPLpqz-wFvV2NCBNU0OuYyUzlUSeK82anKKElMM0s3nuMZPJoZ7A/Giorgia_DearData_50_Front.jpg?format=2500w');
   background-size: cover;
   background-position:top left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arvo', serif;
   font-size: x-large;
 }
 
@@ -32,4 +32,11 @@
   padding-top: 10px;
   border-radius: 90%;
 }
-.Bio { grid-area: 4 / 1 / 6 / 6; }
+.Bio { grid-area: 4 / 1 / 6 / 6;
+  font-family: 'Lato', sans-serif;
+  border: 2px red solid; 
+  text-align: center;}
+
+.text-font {
+  font-family: 'Lato', sans-serif;
+}
