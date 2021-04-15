@@ -1,4 +1,6 @@
 import Interior from './interior.png';
+import GaiasSandbox from './GaiasSandbox.png'
+import Grubdex from './grubdex.png'
 
 const projectList = [
     {
@@ -12,19 +14,22 @@ const projectList = [
     },
     {
         projectName: 'Gaias Sandbox',
-        image: 'url_here',
+        image: GaiasSandbox,
         gitHubFrontend: 'https://github.com/cswilik/gaias-sandbox-frontend',
         gitHubBackend: 'https://github.com/cswilik/gaias-sandbox-backend',
-        description: 'description here',
+        stack: ['Rails', 'React Hooks'],
+        description: 'An app where you can control the weather for regions across the US. Using various parameters, a conditional image will be rendered atop each region. Weather data is persistent for each individual user.',
         link: 'https://gaias-sandbox.herokuapp.com/',
         demo: 'https://www.youtube.com/watch?v=DVUo4A6czbg'
     },
     {
         projectName: 'Grubdex',
-        image: 'url_here',
-        gitHub: 'gitHub link',
-        description: 'description here',
-        walkthrough: 'youtube link'
+        image: Grubdex,
+        gitHubFrontend: 'https://github.com/cswilik/grubdex-frontend',
+        gitHubBackend: 'https://github.com/cswilik/grubdex-backend',
+        stack: ['Rails', 'javascript', 'Bootstrap'],
+        description: 'Grubdex is a personal restaurant organizer application designed for users to customize their own lists for future reference.',
+        demo: 'https://www.youtube.com/watch?v=EN5RUkR7gv8'
     }
 ]
 
