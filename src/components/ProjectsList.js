@@ -9,6 +9,7 @@ function ProjectsList({props}) {
     })
 
     return (<div>
+        <h1>Projects</h1>
         {projects}
        </div>)
 }
