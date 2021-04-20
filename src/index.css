@@ -67,3 +67,11 @@ a {
 li a:hover {
   opacity:1;
 }
+
+.About-me {
+  margin: 20px;
+  padding-left: 20%;
+  padding-right: 10%;
+  max-width: 80%;
+  
+}
