@@ -8,7 +8,7 @@ function ProjectsList({props}) {
        return <ProjectItem project={item}/>
     })
 
-    return (<div>
+    return (<div className="About Me">
         <h1>Projects</h1>
         {projects}
        </div>)
