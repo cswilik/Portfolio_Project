@@ -3,10 +3,12 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 200px 150px 1fr 1fr;
   gap: 0px 0px;
 }
-.Header { grid-area: 1 / 1 / 4 / 6; 
+.Header { 
+  grid-area: 1 / 1 / 4 / 6;  
+  max-height: 1200px;
   background-image: url('https://images.squarespace-cdn.com/content/v1/54eec73ee4b0ae0904da0e94/1448810901819-9PLJNAVIC6XQ7AXHDBB0/ke17ZwdGBToddI8pDm48kIZvwhI-8nL3dm4Y-FdCqJh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USGjq6LBx7SyvhsPLpqz-wFvV2NCBNU0OuYyUzlUSeK82anKKElMM0s3nuMZPJoZ7A/Giorgia_DearData_50_Front.jpg?format=2500w');
   background-size: 1200px 800px;
   background-repeat: no-repeat;
@@ -21,7 +23,8 @@
 }
 .links { grid-area: 3 / 3 / 4 / 6; }
 
-.Headshot {  grid-area: 4 / 1 / 6 / 6; 
+.Headshot {  
+  grid-area: 4 / 1 / 6 / 6; 
   height: 300px;
   width: 250px;
  }
@@ -33,7 +36,8 @@
   padding-top: 10px;
   border-radius: 90%;
 }
-.Body { grid-area: 4 / 1 / 6 / 6;
+.Body { 
+  grid-area: 4 / 1 / 6 / 6;
   font-family: 'Lato', sans-serif;
   border: 2px red solid; 
   text-align: center;}
@@ -74,6 +78,7 @@ li a:hover {
   padding-left: 20%;
   padding-right: 10%;
   max-width: 80%;
+  overflow-y:auto;
   
 }
 
