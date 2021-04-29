@@ -60,7 +60,7 @@ li {
   text-decoration: none;
 }
 
-a {
+.project-titles {
   padding: 8px;
   font-family: 'Arvo', serif;
   font-size: x-large;
@@ -85,4 +85,25 @@ li a:hover {
 .project-img {
   max-width: 20%;
   max-height: 20%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  width: 55%;
+  height: 30%;
+  margin: auto;
+  padding-top: 30%;
+  padding-bottom: 20%;
+  position: relative;
+  text-align: center;
+  
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  display: block;
 }

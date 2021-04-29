@@ -10,7 +10,7 @@ const projectList = [
         gitHubBackend: 'https://github.com/cswilik/interior-backend',
         stack: ['Rails', 'React Hooks', 'Redux'],
         description: 'A form of travel app that allows users to track and share their visits to America’s National Parks.',
-        demo: 'https://www.youtube.com/watch?v=NdhnFYzH2DM'
+        demo: 'NdhnFYzH2DM'
     },
     {
         projectName: 'Gaias Sandbox',
@@ -20,7 +20,7 @@ const projectList = [
         stack: ['Rails', 'React Hooks'],
         description: 'An app where you can control the weather for regions across the US. Using various parameters, a conditional image will be rendered atop each region. Weather data is persistent for each individual user.',
         link: 'https://gaias-sandbox.herokuapp.com/',
-        demo: 'https://www.youtube.com/watch?v=DVUo4A6czbg'
+        demo: 'DVUo4A6czbg'
     },
     {
         projectName: 'Grubdex',
@@ -29,7 +29,7 @@ const projectList = [
         gitHubBackend: 'https://github.com/cswilik/grubdex-backend',
         stack: ['Rails', 'javascript', 'Bootstrap'],
         description: 'Grubdex is a personal restaurant organizer application designed for users to customize their own lists for future reference.',
-        demo: 'https://www.youtube.com/watch?v=EN5RUkR7gv8'
+        demo: 'EN5RUkR7gv8'
     }
 ]
 
