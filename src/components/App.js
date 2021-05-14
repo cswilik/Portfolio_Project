@@ -12,10 +12,11 @@ function App() {
       <Header/>
     <div className="Headshot">
       <img className='image' src={Photo} alt="my headshot"></img>
+      <NavBar/>
     </div>
       {/* <span className="text-font">Helloooooo this is homepage</span> */}
     <div className="Body">
-    <NavBar/>
+    
     <Switch>
         <Route exact path='/'>
             <Homepage/>
@@ -25,9 +26,9 @@ function App() {
         </Route>
     </Switch>
 </div>
-<footer> Here is the link to the artist's work:
+{/* <footer> Here is the link to the artist's work:
 http://www.dear-data.com/week-50-a-week-of-iphone-survey
-</footer>
+</footer> */}
 </div>
   );
 }

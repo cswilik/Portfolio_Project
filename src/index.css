@@ -6,6 +6,7 @@
   grid-template-rows: 150px 200px 150px 1fr 1fr;
   gap: 0px 0px;
 }
+
 .Header { 
   grid-area: 1 / 1 / 4 / 6;  
   max-height: 1200px;
@@ -24,9 +25,10 @@
 .links { grid-area: 3 / 3 / 4 / 6; }
 
 .Headshot {  
-  grid-area: 4 / 1 / 6 / 6; 
-  height: 300px;
-  width: 250px;
+  grid-area: 4 / 1 / 5 / 5;
+  /* border: blue 2px solid; */
+  height: 250px;
+  width: 30%;
  }
 
 .image {
@@ -36,10 +38,11 @@
   padding-top: 10px;
   border-radius: 90%;
 }
+
 .Body { 
-  grid-area: 4 / 1 / 6 / 6;
+  grid-area: 4 / 2 / 6 / 6;
   font-family: 'Lato', sans-serif;
-  border: 2px red solid; 
+  /* border: 2px red solid;  */
   text-align: center;}
 
 .text-font {
@@ -49,24 +52,24 @@
 ul {
   list-style-type: none;
   margin-top: 10px;
-  /* margin: 0; */
   padding: 0;
 }
 
 li {
   font-family: 'Lato', sans-serif;
   padding: 20px;
-  display: inline;
+  display: block;
   text-decoration: none;
 }
 
 .project-titles {
+  margin: 0;
   padding: 8px;
   font-family: 'Arvo', serif;
   font-size: x-large;
   text-decoration: none;
-  color: rgb(116, 49, 116);
-  opacity:0.5;
+  color: rgb(90, 38, 90);
+  opacity:0.7;
 }
 
 li a:hover {
@@ -74,12 +77,11 @@ li a:hover {
 }
 
 .About-me {
-  margin: 20px;
+  margin: 20px; 
   padding-left: 20%;
   padding-right: 10%;
-  max-width: 80%;
-  overflow-y:auto;
-  
+  max-width: 70%;
+  overflow-y: auto;
 }
 
 .project-img {
@@ -89,9 +91,9 @@ li a:hover {
 
 .video-responsive {
   overflow: hidden;
-  width: 55%;
-  height: 30%;
-  margin: auto;
+  width: 75%;
+  height: 10%;
+  margin: 10px 0px 10px 120px;
   padding-top: 30%;
   padding-bottom: 20%;
   position: relative;
@@ -102,8 +104,21 @@ li a:hover {
 .video-responsive iframe {
   left: 0;
   top: 0;
-  height: 70%;
+  height: 100%;
   width: 100%;
   position: absolute;
   display: block;
+}
+
+a {
+  padding: 10px;
+}
+
+.stack-titles {
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
+}
+
+.description {
+  color: rgb(90, 38, 90);
 }
