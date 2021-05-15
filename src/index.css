@@ -78,12 +78,26 @@ li a:hover {
 
 .About-me {
   margin: 20px; 
-  padding-left: 20%;
+  padding-left: 10%;
   padding-right: 10%;
   max-width: 70%;
   overflow-y: auto;
+  background-color: rgb(238, 232, 243);
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 7px 7px 2px 1px rgb(90, 38, 90);
 }
 
+.about-pic {
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.page-text {
+  font-style: bold;
+
+}
 .project-img {
   max-width: 20%;
   max-height: 20%;
@@ -93,7 +107,7 @@ li a:hover {
   overflow: hidden;
   width: 75%;
   height: 10%;
-  margin: 10px 0px 10px 120px;
+  margin: 10px 0px 10px 80px;
   padding-top: 30%;
   padding-bottom: 20%;
   position: relative;

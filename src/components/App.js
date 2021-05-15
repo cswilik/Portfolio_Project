@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar'
 import { Route, Switch } from "react-router-dom";
 import Header from '../components/Header';
 import ProjectsList from './ProjectsList';
+import ContactMe from "../pages/ContactMe"
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
       <img className='image' src={Photo} alt="my headshot"></img>
       <NavBar/>
     </div>
-      {/* <span className="text-font">Helloooooo this is homepage</span> */}
     <div className="Body">
     
     <Switch>
@@ -23,6 +23,9 @@ function App() {
         </Route>
         <Route exact path='/projects'>
           <ProjectsList/>
+        </Route>
+        <Route exact path='/reachout'>
+          <ContactMe/>
         </Route>
     </Switch>
 </div>
