@@ -4,10 +4,9 @@ import {NavLink} from 'react-router-dom'
 function NavBar() {
     return (
         <ul>
-            <li><NavLink exact to='/'>Home</NavLink></li>
-            <li><NavLink exact to='/projects'>Projects</NavLink></li>
-            {/* <li><a href="contact.asp"></a></li> */}
-            <li><NavLink exact to='/reachout'>Contact Me</NavLink></li>
+            <li><NavLink exact to='/' className="link" activeClassName="link-active">Home</NavLink></li>
+            <li><NavLink exact to='/projects' className="link" activeClassName="link-active">Projects</NavLink></li>
+            <li><NavLink exact to='/reachout' className="link" activeClassName="link-active">Contact Me</NavLink></li>
         </ul>
     )
 }

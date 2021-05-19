@@ -1,5 +1,5 @@
 import React from 'react';
-import Pic from '../funny_pic.jpeg'
+import Pic from '../hello.jpeg'
 
 
 
@@ -8,9 +8,13 @@ function Homepage() {
         <div className="About-me">
             <h1 className="page-text">Hi, I'm Chelsey!</h1>
             <img className="about-pic" src={Pic} alt="me in a stand"></img>
-            <p>Full stack engineer new to the field of tech. I'm a huge proponent of collaboration and  communication. 
-                    My skill sets include: Rails, Javascript, React with Hooks, Redux. I don't know what else to say here,
-                    but I am trying to make a little paragraph.</p>
+            <p>Full stack engineer starting a new career in the world of tech.
+            I studied art history and have spent most of my time working in museums/cultural institutions.
+            
+            I'm a huge proponent of communication and fostering a strong community. 
+            
+                My skill sets include: Rails, Javascript, React with Hooks, Redux. 
+                </p>
         </div>
     )
 }

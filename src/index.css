@@ -55,11 +55,19 @@ ul {
   padding: 0;
 }
 
-li {
+
+
+.link {
   font-family: 'Lato', sans-serif;
-  padding: 20px;
+  padding: 10px;
   display: block;
   text-decoration: none;
+}
+
+
+.link-active {
+  text-decoration: underline;
+  font-size: large;
 }
 
 .project-titles {
@@ -72,9 +80,7 @@ li {
   opacity:0.7;
 }
 
-li a:hover {
-  opacity:1;
-}
+
 
 .About-me {
   margin: 20px; 
@@ -89,7 +95,7 @@ li a:hover {
 }
 
 .about-pic {
-  width: 250px;
+  width: 350px;
   height: 300px;
   border-radius: 5px;
 }
@@ -135,4 +141,10 @@ a {
 
 .description {
   color: rgb(90, 38, 90);
+}
+
+.icons {
+  width: 70px;
+  height: 55px;
+  float: left;
 }
