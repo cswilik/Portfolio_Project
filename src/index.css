@@ -143,8 +143,23 @@ a {
   color: rgb(90, 38, 90);
 }
 
+
+.contact-div {
+  overflow-y: auto;
+  background-color: rgb(238, 232, 243);
+  border-radius: 15px;
+  margin: 20px; 
+  box-shadow: 7px 7px 2px 1px rgb(90, 38, 90);
+
+}
+
 .icons {
-  width: 70px;
-  height: 55px;
-  float: left;
+  width: 55px;
+  height: 45px;
+  /* float: left; */
+  padding: none;
+}
+
+.links {
+  display: inline;
 }

@@ -8,13 +8,14 @@ function Homepage() {
         <div className="About-me">
             <h1 className="page-text">Hi, I'm Chelsey!</h1>
             <img className="about-pic" src={Pic} alt="me in a stand"></img>
-            <p>Full stack engineer starting a new career in the world of tech.
-            I studied art history and have spent most of my time working in museums/cultural institutions.
-            
+            <p className="description">Full stack engineer starting a new career in the world of tech.
+            I studied art history and have spent most of my time working in museums and cultural institutions.
             I'm a huge proponent of communication and fostering a strong community. 
-            
-                My skill sets include: Rails, Javascript, React with Hooks, Redux. 
-                </p>
+            </p>
+            <h3 className="project-titles">Technical Skills</h3>
+            <p className="description"> Javascript, React, Redux, Ruby, Rails, HTML, CSS, Bootstrap. </p>
+            <h3 className="project-titles">Hobbies</h3>
+            <p className="description"> Hiking, National Parks, knitting, film, learning new languages, being a cat and plant mom. </p>
         </div>
     )
 }
