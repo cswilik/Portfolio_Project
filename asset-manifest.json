@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e5b1b0d.chunk.css",
+    "main.js": "/static/js/main.24387beb.chunk.js",
+    "main.js.map": "/static/js/main.24387beb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.133ca49d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.133ca49d.js.map",
+    "static/js/2.cd4011db.chunk.js": "/static/js/2.cd4011db.chunk.js",
+    "static/js/2.cd4011db.chunk.js.map": "/static/js/2.cd4011db.chunk.js.map",
+    "static/js/3.148e6a0d.chunk.js": "/static/js/3.148e6a0d.chunk.js",
+    "static/js/3.148e6a0d.chunk.js.map": "/static/js/3.148e6a0d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e5b1b0d.chunk.css.map": "/static/css/main.2e5b1b0d.chunk.css.map",
+    "static/js/2.cd4011db.chunk.js.LICENSE.txt": "/static/js/2.cd4011db.chunk.js.LICENSE.txt",
+    "static/media/GaiasSandbox.1f34037e.png": "/static/media/GaiasSandbox.1f34037e.png",
+    "static/media/Prof Pic.17618673.png": "/static/media/Prof Pic.17618673.png",
+    "static/media/grubdex.6c8ea097.png": "/static/media/grubdex.6c8ea097.png",
+    "static/media/hello.953fcb2f.jpeg": "/static/media/hello.953fcb2f.jpeg",
+    "static/media/interior.27acf018.png": "/static/media/interior.27acf018.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.133ca49d.js",
+    "static/js/2.cd4011db.chunk.js",
+    "static/css/main.2e5b1b0d.chunk.css",
+    "static/js/main.24387beb.chunk.js"
+  ]
+}
