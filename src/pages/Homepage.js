@@ -15,7 +15,7 @@ function Homepage() {
             <h3 className="project-titles">Technical Skills</h3>
             <p className="description"> Javascript, React, Redux, Ruby, Rails, HTML, CSS, Bootstrap. </p>
             <h3 className="project-titles">Hobbies</h3>
-            <p className="description"> Hiking, National Parks, knitting, film, learning new languages, being a cat and plant mom. </p>
+            <p className="description"> Hiking, National Parks, knitting, art, film, learning new languages, being a cat and plant mom. </p>
         </div>
     )
 }

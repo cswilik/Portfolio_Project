@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 import { Route, Switch } from "react-router-dom";
 import Header from '../components/Header';
 import ProjectsList from './ProjectsList';
-import ContactMe from "../pages/ContactMe"
+
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <img className='image' src={Photo} alt="my headshot"></img>
       <NavBar/>
     </div>
+    
     <div className="Body">
     
     <Switch>
@@ -24,14 +25,11 @@ function App() {
         <Route exact path='/projects'>
           <ProjectsList/>
         </Route>
-        <Route exact path='/reachout'>
-          <ContactMe/>
-        </Route>
     </Switch>
 </div>
-{/* <footer> Here is the link to the artist's work:
-http://www.dear-data.com/week-50-a-week-of-iphone-survey
-</footer> */}
+<footer className="footer"> Credit for image: 
+  <a target="_blank" rel="noreferrer" href='http://www.dear-data.com/week-50-a-week-of-iphone-survey'>Dear Data</a>
+</footer>
 </div>
   );
 }

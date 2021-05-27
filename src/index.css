@@ -22,10 +22,11 @@
   text-align: right;
   padding-right: 30px;
 }
+
 .links { grid-area: 3 / 3 / 4 / 6; }
 
 .Headshot {  
-  grid-area: 4 / 1 / 5 / 5;
+  grid-area: 4 / 1 / 4 / 5;
   /* border: blue 2px solid; */
   height: 250px;
   width: 30%;
@@ -37,6 +38,10 @@
   padding-left: 10px;
   padding-top: 10px;
   border-radius: 90%;
+}
+
+.sidebar {
+    width: 80%;
 }
 
 .Body { 
@@ -156,10 +161,17 @@ a {
 .icons {
   width: 55px;
   height: 45px;
-  /* float: left; */
   padding: none;
 }
 
 .links {
   display: inline;
+}
+
+.footer {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: rgb(90, 38, 90);
+  grid-area: 6 / 1/ 6 / 6;
+  text-align: center;
 }
