@@ -19,7 +19,7 @@ function App() {
     <div className="Body">
     
     <Switch>
-        <Route exact path='/cswilik'>
+        <Route exact path='/'>
             <Homepage/>
         </Route>
         <Route exact path='/projects'>

@@ -9,7 +9,7 @@ function ProjectsList({props}) {
     })
 
     return (<div className="About-me">
-        <h1>Projects</h1>
+        <h1 className="page-text">Projects</h1>
         {projects}
        </div>)
 }

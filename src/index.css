@@ -11,23 +11,21 @@
   grid-area: 1 / 1 / 4 / 6;  
   max-height: 1200px;
   background-image: url('https://images.squarespace-cdn.com/content/v1/54eec73ee4b0ae0904da0e94/1448810901819-9PLJNAVIC6XQ7AXHDBB0/ke17ZwdGBToddI8pDm48kIZvwhI-8nL3dm4Y-FdCqJh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USGjq6LBx7SyvhsPLpqz-wFvV2NCBNU0OuYyUzlUSeK82anKKElMM0s3nuMZPJoZ7A/Giorgia_DearData_50_Front.jpg?format=2500w');
-  background-size: 1200px 800px;
+  background-size: 110%;
   background-repeat: no-repeat;
-  /* background-position:top left; */
   font-family: 'Arvo', serif;
-  font-size: x-large;
+  font-size: 2em;
 }
 
 .title {
   text-align: right;
-  padding-right: 30px;
+  padding-right: 7%;
 }
 
-.links { grid-area: 3 / 3 / 4 / 6; }
+/* .links { grid-area: 3 / 3 / 4 / 6; } */
 
 .Headshot {  
   grid-area: 4 / 1 / 4 / 5;
-  /* border: blue 2px solid; */
   height: 250px;
   width: 30%;
  }
@@ -47,8 +45,8 @@
 .Body { 
   grid-area: 4 / 2 / 6 / 6;
   font-family: 'Lato', sans-serif;
-  /* border: 2px red solid;  */
-  text-align: center;}
+  text-align: center;
+}
 
 .text-font {
   font-family: 'Lato', sans-serif;
@@ -60,26 +58,25 @@ ul {
   padding: 0;
 }
 
-
-
 .link {
   font-family: 'Lato', sans-serif;
   padding: 10px;
   display: block;
   text-decoration: none;
+  font-size: 1.3em;
 }
 
 
 .link-active {
   text-decoration: underline;
-  font-size: large;
+  font-size: 1.4em;
 }
 
 .project-titles {
   margin: 0;
   padding: 8px;
   font-family: 'Arvo', serif;
-  font-size: x-large;
+  font-size: 1.7em;
   text-decoration: none;
   color: rgb(90, 38, 90);
   opacity:0.7;
@@ -107,6 +104,7 @@ ul {
 
 .page-text {
   font-style: bold;
+  font-size: 2.5em;
 
 }
 .project-img {
@@ -146,17 +144,21 @@ a {
 
 .description {
   color: rgb(90, 38, 90);
+  font-size: 1.4em;
 }
 
+.github-links {
+  font-size: 1.5em;
+}
 
-.contact-div {
+/* .contact-div {
   overflow-y: auto;
   background-color: rgb(238, 232, 243);
   border-radius: 15px;
   margin: 20px; 
   box-shadow: 7px 7px 2px 1px rgb(90, 38, 90);
 
-}
+} */
 
 .icons {
   width: 55px;
@@ -173,5 +175,5 @@ a {
   text-decoration: none;
   color: rgb(90, 38, 90);
   grid-area: 6 / 1/ 6 / 6;
-  text-align: center;
+  text-align: right;
 }
