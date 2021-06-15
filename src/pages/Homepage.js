@@ -13,7 +13,7 @@ function Homepage() {
             I'm a huge proponent of communication and fostering a strong community. 
             </p>
             <h3 className="project-titles">Technical Skills</h3>
-            <p className="description"> Javascript, React, Redux, Ruby, Rails, HTML, CSS, Bootstrap. </p>
+            <p className="description"> Javascript, React, Redux, Git, SQL, Ruby, Rails, HTML, CSS, Bootstrap, Material UI. </p>
             <h3 className="project-titles">Hobbies</h3>
             <p className="description"> Hiking, National Parks, knitting, art, film, learning new languages, being a cat and plant mom. </p>
         </div>
